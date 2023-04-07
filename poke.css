@@ -1,0 +1,95 @@
+/* Style the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #ffcb05;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Style the main content */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  /* Style the form */
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the input box */
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the search button */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style the result box */
+  .result-box {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the pokemon box */
+  .pokemon-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Style the pokemon image */
+  .pokemon-image {
+    margin-right: 20px;
+  }
+  
+  /* Style the pokemon info */
+  .pokemon-info {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  /* Style the pokemon info list */
+  .pokemon-info ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the pokemon info list items */
+  .pokemon-info li {
+    margin-bottom: 5px;
+  }
+  .ui-autocomplete {
+    max-height: 200px; /* Adjust this value to set the maximum height */
+    overflow-y: scroll;
+  }
